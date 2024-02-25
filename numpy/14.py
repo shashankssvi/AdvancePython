@@ -1,8 +1,7 @@
 import numpy as np
 n1 = np.array([1, 2, 3, 4, 5])
-x = n1.copy()
-y = n1.view()
+n2= n1.copy()
 n1[0]=6
-print(x)
-print(y)
+print(n1)
+print(n2) # this won't change
 

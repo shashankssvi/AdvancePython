@@ -6,4 +6,5 @@ data=np.random.randint(low=1,high=100,size=(10,10))
 dd=pd.DataFrame(data)
 print(dd)
 sns.heatmap(data=data,cmap="YlOrBr",annot=True,xticklabels=True,yticklabels=True)
+#https://loading.io/color/feature/YlOrBr-6/
 plt.show()

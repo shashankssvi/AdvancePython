@@ -6,5 +6,6 @@ data = sns.load_dataset("iris")
 ds=pd.DataFrame(data);
 ds.head(10)
 print(ds)
-sns.stripplot(x ='sepal_length', y ='sepal_width', data = data, hue ='sepal_length', dodge = False,palette="plasma",size=5,alpha=0.5,linewidth=1,edgecolor="violet")
+sns.stripplot(x ='sepal_length', y ='sepal_width', data = data, hue ='sepal_length',
+            dodge = False,palette="plasma",size=5,alpha=0.5,linewidth=1,edgecolor="violet")
 plt.show()

@@ -6,5 +6,6 @@ data = sns.load_dataset("iris")
 ds=pd.DataFrame(data);
 ds.head(10)
 print(ds)
-sns.barplot(x ="sepal_length", y="sepal_width", data = data, palette ='plasma',hue='sepal_length',ci=False,edgecolor='0.01')
+sns.barplot(x ="sepal_length", y="sepal_width", data = data, 
+            palette ='plasma',hue='sepal_length',ci=False,edgecolor='0.01')
 plt.show()
